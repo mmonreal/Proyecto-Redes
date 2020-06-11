@@ -1,0 +1,49 @@
+<html>
+	<head>
+
+		<!-- Importamos tenssorflow y p5.js-->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+
+		<script src="red.js"></script>
+
+		<style>
+			body {
+				font-family: 'helvetica', Courier, monospace;
+			}
+
+			canvas {
+				border: 1px solid black;
+				margin: 20px 20px 0 0;
+			}
+
+			#l {
+				display: flex;
+				justify-content: start;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<b style="font-size : 30px;">Clasificador de 120 imagenes</b><p></p>
+
+		<button id="limpia" style="font-size : 30px; width:100px;height:50px;">Borrar</button>
+		<div id="l">
+			<div id="canvas"></div>
+			<h3 id="res" style="font-size : 20px;"></h3>
+		</div><p></p>
+		
+		
+	<b style="font-size : 20px;">Categorias:</b><p></p>
+		
+		<p>bread, car, police_car, strawberry, calendar, sock, clock, helmet, mouth, candle, flip_flops, eye, umbrella, lightning, spoon, ladder, rifle, triangle, light_bulb, tent, fan, t-shirt, school_bus, moustache, drums, alarm_clock, mailbox, tooth, traffic_light, skateboard, stop_sign, flower, bulldozer, mushroom, tree, backpack, stairs, pizza, coffee_cup, bench, map, hat, key, saw, apple, chair, rainbow, paintbrush, square, snake, pillow, table, suitcase, pencil, tennis_racquet, bridge, wristwatch, moon, golf_club, ice_cream, syringe, cookie, cloud, ceiling_fan, power_outlet, bird, door, airplane, axe, book, pants, hot_dog, shovel, butterfly, microphone, bed, radio, beard, spider, hammer, eyeglasses, headphones, scissors, basketball, wheel, broom, cell_phone, dumbbell, knife, frying_pan, lollipop, line, sword, donut, circle, dog, mountain, face, dresser, bicycle, anvil, toothpaste, baseball, sun, garden_hose, cup, shorts, baseball_bat, smiley_face, blueberry, grapes, cat, diving_board, snowman, laptop, paper_clip, screwdriver, camera, envelope, star</p>
+	
+
+	</body>
+
+</html>
