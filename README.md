@@ -2,7 +2,7 @@
 Proyecto Final para el curso de Redes Neuronales 2020-2<br>
 
 ### Integrantes
-Monreal Gamboa Francisco Manuel
+Monreal Gamboa Francisco Manuel<br>
 Ramírez García Diana Isabel
 
 ### Ejecución 
