@@ -8,7 +8,7 @@ Ramírez García Diana Isabel
 ### Ejecución 
 Para ejecutar la aplicación es necesario levantar un servidor en la ubicación del índice.<br>
 Por ejemplo: <br>
-Escribimos el comando python -m SimpleHTTPServer 8000<br>
+Escribimos el comando: python -m SimpleHTTPServer 8000<br>
 Accedemos a la direccion: http://localhost:8000/<br>
 
 
